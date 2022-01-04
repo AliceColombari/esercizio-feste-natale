@@ -63,3 +63,84 @@ header .row .link-item li a{
     font-size: 15px;
 }
 /* FINE HEADER MENU */
+
+/* JUMBOTRON */
+main .jumbotron{
+    background-color: #0D0B26;
+    background-image: url('img_jumbotron.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .container{
+    display: flex;
+}
+/* JUMBOTRON ELEMENTI A DESTRA */
+main .container-jumbotron{
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .jumbotron-text{
+    margin-top: 60px;
+    height: 100vh;
+}
+
+main .jumbotron-title{
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+main .jumbotron-title h1{
+    font-size: 30px;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+
+main .jumbotron-title p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* JUMBOTRON BOTTONE E STAR + NUMBER */
+main .jumbotron-download{
+    margin-top: 20px;
+    display: flex;
+
+    /* LINEA */
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+}
+
+main .jumbotron-download  a.btn{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+main .link-item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+main .link-item li a{
+    color: #fff;
+    padding: 0 2px;
+    text-decoration: none;
+}
+
+main .link-item i{
+    color: rgb(255, 251, 0);
+}
+
+
+main .link-item .number{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
