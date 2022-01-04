@@ -84,7 +84,6 @@ main .container-jumbotron{
 
 main .jumbotron-text{
     margin-top: 60px;
-    height: 100vh;
 }
 
 main .jumbotron-title{
@@ -203,4 +202,104 @@ main .btn-piani.btn-one{
     margin: 0px 20px 0px 0px;
 }
 
+main .jumbotron-second-part-text-price{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.jumbotron-second-part-price{
+    margin-top: 20px;
+    display: flex;
+    color: #fff;
+}
+
+main .jumbotron-second-part-price{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+main .jumbotron-second-part-price .prezzo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+main .jumbotron-second-part-price h4{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+main .jumbotron-second-part-price span{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+main .content-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+main .content-left .buy{
+    text-transform: uppercase;
+    padding: 10px 40px;
+    margin: 20px 0;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background-color: #009cff;
+}
+
+main .content-left .info{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+main .content-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 30px;
+    justify-content: center;
+}
+
+.line-content-right{
+    border-left: 1px solid grey;
+    padding-left: 15px;
+}
+
+main .content-right .offerta{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+main .content-right .free{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+main .content-right p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* PROMO */
+.promo{
+    font-size: 18px;
+    padding: 15px 20px;
+    background: #32c998;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+}
+
+.promo h3 a{
+    color: #333;
+}
 
