@@ -1,0 +1,65 @@
+/* COMMON */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header{
+    background-color: rgb(16, 16, 16);
+}
+/* FINE COMMON */
+
+/* HEADER COOKIE */
+header .row-cookie{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header .row-cookie .link-cookie{
+    display: flex;
+    list-style: none;
+}
+
+header .row-cookie .link-cookie li a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: gray;
+    font-size: 15px;
+}
+/* FINE HEADER COOKIE */
+
+/* HEADER MENU */
+header .row{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header .link-item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header .row .link-item li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 15px;
+}
+/* FINE HEADER MENU */
