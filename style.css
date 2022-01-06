@@ -353,23 +353,38 @@ main .content-right p{
     height: 100%;
     color: #fff;
 }
-.content-second-section{
+.content-second-section .text{
     text-align: center;
     width: 60%;
     margin: auto;
     padding-top: 60px;
 }
 
-.content-second-section h1{
+.content-second-section .text h1{
     margin-bottom: 20px;
 }
 
-.content-second-section p{
+.content-second-section .text p{
     line-height: 25px;
 }
 
 
-.video{
-    margin: 40px auto;
+.cover .video {
+    margin: 60px auto 0px auto;
     width: 50%;
+}
+
+.container-second-section .cover{
+    position: relative;
+    display: flex;
+}
+
+.cover .img-layover{
+    font-size: 170px;
+    color: #000;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
