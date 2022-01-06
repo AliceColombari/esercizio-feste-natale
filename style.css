@@ -388,3 +388,37 @@ main .content-right p{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+
+.container-third-section{
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.row-third{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+
+.row-third .col{
+    margin: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.fa-project-diagram,
+.fa-users,
+.fa-money-check-alt{
+    font-size: 70px;
+    margin-bottom: 30px;
+    color: #880000;
+}
+
+.row-third h1{
+    margin-bottom: 30px;
+}
