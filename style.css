@@ -32,6 +32,7 @@ header .row-cookie{
 header .row-cookie .link-cookie{
     display: flex;
     list-style: none;
+    margin-top: 10px;
 }
 
 header .row-cookie .link-cookie li a{
@@ -39,6 +40,19 @@ header .row-cookie .link-cookie li a{
     padding: 0 10px;
     color: gray;
     font-size: 15px;
+}
+
+.fa-phone-alt,
+.fa-comment-alt,
+.fa-user,
+.fa-shopping-cart{
+    color: #009CFF;
+    margin-right: 5px;
+}
+
+.white-box{
+    background-color: #fff;
+    padding: 0px 3px;
 }
 /* FINE HEADER COOKIE */
 
@@ -62,6 +76,11 @@ header .row .link-item li a{
     padding: 0 20px;
     font-size: 15px;
 }
+
+.fa-angle-down-white{
+    color: grey;
+}
+
 /* FINE HEADER MENU */
 
 /* JUMBOTRON */
@@ -75,9 +94,9 @@ main .jumbotron{
 main .container{
     display: flex;
     background-color: #0D0B26;
-    background-image: url('dragon.jpeg');
+    /* background-image: url('dragon.jpeg');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right; */
 }
 
 /* JUMBOTRON ELEMENTI A DESTRA */
@@ -307,3 +326,50 @@ main .content-right p{
     color: #333;
 }
 
+/* HEADER SECONDA SEZIONE */
+.row-second-section{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 221, 221);
+}
+
+.link-second-section{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.row-second-section .link-second-section li a{
+    color: #000;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.container-second-section{
+    background-image: -webkit-linear-gradient(top right, #a00050 0%, #880000 100%);
+    height: 100%;
+    color: #fff;
+}
+.content-second-section{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.content-second-section h1{
+    margin-bottom: 20px;
+}
+
+.content-second-section p{
+    line-height: 25px;
+}
+
+
+.video{
+    margin: 40px auto;
+    width: 50%;
+}
