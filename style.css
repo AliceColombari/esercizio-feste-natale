@@ -561,7 +561,7 @@ main .content-right p{
     }
 }
 
-@media (max-width: 767px){
+@media (max-width: 860px){
     header .row-cookie .link-cookie li a{
         padding: 0 5px;
         font-size: 12px;
